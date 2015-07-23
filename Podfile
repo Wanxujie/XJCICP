@@ -1,0 +1,8 @@
+platform :ios, '7.0'
+pod 'Masonry', '~> 0.5.2'
+pod 'AFNetworking', '~> 2.0'
+pod 'FMDB', '~> 2.5'
+pod 'SDWebImage', '~> 3.7.2'
+pod 'MJRefresh', '~> 0.0.1'
+pod 'ECSlidingViewController', '~> 2.0.3'
+pod 'Masonry', '~> 0.5.2'

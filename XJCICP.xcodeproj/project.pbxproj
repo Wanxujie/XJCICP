@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4B9597D556B41E03B56695 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB353E82C317572EF627F2A /* libPods.a */; };
 		701E6FF91B5F771B00072436 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 701E6FF81B5F771B00072436 /* main.m */; };
 		701E6FFC1B5F771B00072436 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 701E6FFB1B5F771B00072436 /* AppDelegate.m */; };
 		701E6FFF1B5F771B00072436 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701E6FFE1B5F771B00072436 /* ViewController.m */; };
@@ -14,6 +15,13 @@
 		701E70041B5F771B00072436 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701E70031B5F771B00072436 /* Images.xcassets */; };
 		701E70071B5F771B00072436 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 701E70051B5F771B00072436 /* LaunchScreen.xib */; };
 		701E70131B5F771C00072436 /* XJCICPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 701E70121B5F771C00072436 /* XJCICPTests.m */; };
+		701E70221B5F7FA200072436 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701E70201B5F7FA200072436 /* Bugly.framework */; };
+		701E70231B5F7FA200072436 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701E70211B5F7FA200072436 /* Reveal.framework */; };
+		701E70251B5F806F00072436 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701E70241B5F806F00072436 /* CFNetwork.framework */; };
+		701E70271B5F807800072436 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701E70261B5F807800072436 /* SystemConfiguration.framework */; };
+		701E70291B5F808000072436 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701E70281B5F808000072436 /* Security.framework */; };
+		701E702B1B5F809E00072436 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 701E702A1B5F809E00072436 /* libc++.dylib */; };
+		701E702D1B5F80A500072436 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 701E702C1B5F80A500072436 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0030E5E26D67E4A0D1D2577A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6BB353E82C317572EF627F2A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		701E6FF31B5F771B00072436 /* XJCICP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJCICP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		701E6FF71B5F771B00072436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		701E6FF81B5F771B00072436 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +50,14 @@
 		701E700C1B5F771C00072436 /* XJCICPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJCICPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		701E70111B5F771C00072436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		701E70121B5F771C00072436 /* XJCICPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJCICPTests.m; sourceTree = "<group>"; };
+		701E70201B5F7FA200072436 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
+		701E70211B5F7FA200072436 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		701E70241B5F806F00072436 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		701E70261B5F807800072436 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		701E70281B5F808000072436 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		701E702A1B5F809E00072436 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		701E702C1B5F80A500072436 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8576331F26691FB1959943BA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701E702D1B5F80A500072436 /* libz.dylib in Frameworks */,
+				701E702B1B5F809E00072436 /* libc++.dylib in Frameworks */,
+				701E70291B5F808000072436 /* Security.framework in Frameworks */,
+				701E70271B5F807800072436 /* SystemConfiguration.framework in Frameworks */,
+				701E70251B5F806F00072436 /* CFNetwork.framework in Frameworks */,
+				701E70221B5F7FA200072436 /* Bugly.framework in Frameworks */,
+				701E70231B5F7FA200072436 /* Reveal.framework in Frameworks */,
+				1C4B9597D556B41E03B56695 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,13 +86,128 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		273F1A541C5F4C53F7E932A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8576331F26691FB1959943BA /* Pods.debug.xcconfig */,
+				0030E5E26D67E4A0D1D2577A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		700A4D691B5F9A01002BFE16 /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "主页";
+			sourceTree = "<group>";
+		};
+		700A4D6A1B5F9A0D002BFE16 /* 会所预定 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "会所预定";
+			sourceTree = "<group>";
+		};
+		700A4D6B1B5F9A10002BFE16 /* 生活必备 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "生活必备";
+			sourceTree = "<group>";
+		};
+		700A4D6C1B5F9A13002BFE16 /* 屋苑通告 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "屋苑通告";
+			sourceTree = "<group>";
+		};
+		700A4D6E1B5F9A29002BFE16 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RootViewController;
+			sourceTree = "<group>";
+		};
+		700A4D6F1B5F9AA7002BFE16 /* Text_Btn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Text_Btn;
+			sourceTree = "<group>";
+		};
+		700A4D701B5F9AB4002BFE16 /* SCTable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SCTable;
+			sourceTree = "<group>";
+		};
+		700A4D711B5F9AB7002BFE16 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LoginView;
+			sourceTree = "<group>";
+		};
+		700A4D721B5F9ABC002BFE16 /* Autofit_Label */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Autofit_Label;
+			sourceTree = "<group>";
+		};
+		700A4D731B5F9ABF002BFE16 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		700A4D741B5F9AC2002BFE16 /* ClubBookingViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ClubBookingViews;
+			sourceTree = "<group>";
+		};
+		700A4D751B5F9B34002BFE16 /* ClubBookingModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ClubBookingModel;
+			sourceTree = "<group>";
+		};
+		700A4D761B5F9B4C002BFE16 /* LogModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LogModel;
+			sourceTree = "<group>";
+		};
+		700A4D771B5F9B5B002BFE16 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NetManager;
+			sourceTree = "<group>";
+		};
 		701E6FEA1B5F771A00072436 = {
 			isa = PBXGroup;
 			children = (
+				701E701C1B5F7F8F00072436 /* ViewControllers */,
+				701E701D1B5F7F8F00072436 /* Views */,
+				701E701E1B5F7F8F00072436 /* Models */,
+				701E701F1B5F7FA100072436 /* SDK */,
+				701E702E1B5F80E800072436 /* FrameWork */,
 				701E6FF51B5F771B00072436 /* XJCICP */,
 				701E700F1B5F771C00072436 /* XJCICPTests */,
 				701E6FF41B5F771B00072436 /* Products */,
+				273F1A541C5F4C53F7E932A7 /* Pods */,
+				BEC6410978ADF8B03649A9F9 /* Frameworks */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
 		};
 		701E6FF41B5F771B00072436 /* Products */ = {
@@ -119,6 +260,74 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		701E701C1B5F7F8F00072436 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				700A4D6E1B5F9A29002BFE16 /* RootViewController */,
+				700A4D6C1B5F9A13002BFE16 /* 屋苑通告 */,
+				700A4D6B1B5F9A10002BFE16 /* 生活必备 */,
+				700A4D6A1B5F9A0D002BFE16 /* 会所预定 */,
+				700A4D691B5F9A01002BFE16 /* 主页 */,
+			);
+			name = ViewControllers;
+			path = XJCICP/1_ViewControllers;
+			sourceTree = "<group>";
+		};
+		701E701D1B5F7F8F00072436 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				700A4D741B5F9AC2002BFE16 /* ClubBookingViews */,
+				700A4D731B5F9ABF002BFE16 /* Cells */,
+				700A4D721B5F9ABC002BFE16 /* Autofit_Label */,
+				700A4D711B5F9AB7002BFE16 /* LoginView */,
+				700A4D701B5F9AB4002BFE16 /* SCTable */,
+				700A4D6F1B5F9AA7002BFE16 /* Text_Btn */,
+			);
+			name = Views;
+			path = XJCICP/2_Views;
+			sourceTree = "<group>";
+		};
+		701E701E1B5F7F8F00072436 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				700A4D771B5F9B5B002BFE16 /* NetManager */,
+				700A4D761B5F9B4C002BFE16 /* LogModel */,
+				700A4D751B5F9B34002BFE16 /* ClubBookingModel */,
+			);
+			name = Models;
+			path = XJCICP/3_Models;
+			sourceTree = "<group>";
+		};
+		701E701F1B5F7FA100072436 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				701E70281B5F808000072436 /* Security.framework */,
+				701E70261B5F807800072436 /* SystemConfiguration.framework */,
+				701E70241B5F806F00072436 /* CFNetwork.framework */,
+				701E70201B5F7FA200072436 /* Bugly.framework */,
+				701E70211B5F7FA200072436 /* Reveal.framework */,
+			);
+			name = SDK;
+			path = XJCICP/5_SDK;
+			sourceTree = "<group>";
+		};
+		701E702E1B5F80E800072436 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				701E702C1B5F80A500072436 /* libz.dylib */,
+				701E702A1B5F809E00072436 /* libc++.dylib */,
+			);
+			name = FrameWork;
+			sourceTree = "<group>";
+		};
+		BEC6410978ADF8B03649A9F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BB353E82C317572EF627F2A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +335,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 701E70161B5F771C00072436 /* Build configuration list for PBXNativeTarget "XJCICP" */;
 			buildPhases = (
+				77B5B975BA68F3340F87BEAA /* Check Pods Manifest.lock */,
 				701E6FEF1B5F771A00072436 /* Sources */,
 				701E6FF01B5F771A00072436 /* Frameworks */,
 				701E6FF11B5F771A00072436 /* Resources */,
+				5C1F71B27D5C1A4A03DE3893 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +424,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C1F71B27D5C1A4A03DE3893 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77B5B975BA68F3340F87BEAA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		701E6FEF1B5F771A00072436 /* Sources */ = {
@@ -341,21 +585,47 @@
 		};
 		701E70171B5F771C00072436 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8576331F26691FB1959943BA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XJCICP/5_SDK",
+				);
 				INFOPLIST_FILE = XJCICP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ccbfea49-afac-4ff9-8a64-4cec48201bb0";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		701E70181B5F771C00072436 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0030E5E26D67E4A0D1D2577A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XJCICP/5_SDK",
+				);
 				INFOPLIST_FILE = XJCICP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ccbfea49-afac-4ff9-8a64-4cec48201bb0";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
@@ -412,6 +682,7 @@
 				701E70181B5F771C00072436 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		701E70191B5F771C00072436 /* Build configuration list for PBXNativeTarget "XJCICPTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +691,7 @@
 				701E701B1B5F771C00072436 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

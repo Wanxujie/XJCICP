@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    NSObject * d = nil;
+//    NSArray * arr = @[@"s",d];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
